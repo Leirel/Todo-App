@@ -1,6 +1,6 @@
 // src/components/TodoList.jsx
 import { useState } from "react";
-import TodoItem from "./TodoItem";
+import TodoItem from "./TodoItem.jsx";
 
 function TodoList() {
   const [todos, setTodos] = useState([]);
